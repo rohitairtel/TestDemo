@@ -303,8 +303,12 @@ public class UserManagement {
 
 	}
 
-	public static void deleteUser() throws Exception {
+	public static void desabledUser() throws Exception {
 
+	}
+	
+	public static void enabledUser() throws Exception{
+		
 	}
 
 }
