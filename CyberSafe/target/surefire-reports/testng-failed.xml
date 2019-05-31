@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testcase.HomePageTestCase">
+        <methods>
+          <include name="userLastLoginInfo"/>
+        </methods>
+      </class> <!-- testcase.HomePageTestCase -->
+      <class name="testcase.LoginTestCase">
+        <methods>
+          <include name="login_Level_2_MER"/>
+          <include name="login_Level_2_PPI"/>
+          <include name="login_Level_3_MER"/>
+          <include name="endTestCase"/>
+          <include name="startTestCase"/>
+        </methods>
+      </class> <!-- testcase.LoginTestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
