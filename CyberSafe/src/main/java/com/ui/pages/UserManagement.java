@@ -302,6 +302,7 @@ public class UserManagement {
 
 	}
 
+
 /*	public static void desabledUser() throws Exception {
 
 	}
@@ -313,4 +314,17 @@ public class UserManagement {
 	public static void userDetails() throws Exception {
 
 	}*/
+
+	public static void desabledUser() throws Exception {
+
+	}
+
+	public static void enabledUser() throws Exception {
+
+	}
+
+	public static void userDetails() throws Exception {
+
+	}
+
 }
